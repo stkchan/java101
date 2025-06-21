@@ -12,5 +12,6 @@ public class cal {
         System.out.println(num1 % num2);
         System.out.println(summary1);
         System.out.println(summary2);
+        System.out.println("Result = " + summary1);
     }
 }
