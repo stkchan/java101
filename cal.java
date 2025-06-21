@@ -6,6 +6,8 @@ public class cal {
         float summary1 = (float) (num1 + num2); // Casting type
         float summary2 = (float) num1 / (float) num2; // Casting type
         String summary3 = "Result = " + summary1; // Convert
+        num1 = num1 + 1;
+        num2++;
         System.out.println(num1 + num2);
         System.out.println(num1 - num2);
         System.out.println(num1 * num2);
