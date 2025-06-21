@@ -8,6 +8,8 @@ public class cal {
         String summary3 = "Result = " + summary1; // Convert
         num1 = num1 + 1;
         num2++;
+        boolean isEqual = num1 == num2;
+        boolean isMorethan = num1 > num2;
         System.out.println(num1 + num2);
         System.out.println(num1 - num2);
         System.out.println(num1 * num2);
@@ -16,5 +18,8 @@ public class cal {
         System.out.println(summary1);
         System.out.println(summary2);
         System.out.println(summary3);
+        System.out.println(isEqual);
+        System.out.println(isMorethan);
+        
     }
 }
