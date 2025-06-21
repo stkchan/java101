@@ -3,12 +3,14 @@ public class cal {
         int num1 = 7;
         int num2 = 3;
 
-        float summary = (float) (num1 + num2); // Casting type
+        float summary1 = (float) (num1 + num2); // Casting type
+        float summary2 = (float) num1 / (float) num2; // Casting type
         System.out.println(num1 + num2);
         System.out.println(num1 - num2);
         System.out.println(num1 * num2);
         System.out.println(num1 / num2);
         System.out.println(num1 % num2);
-        System.out.println(summary);
+        System.out.println(summary1);
+        System.out.println(summary2);
     }
 }
